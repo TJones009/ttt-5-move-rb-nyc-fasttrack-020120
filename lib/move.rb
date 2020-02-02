@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(input)
-  move_index = input.strip.to_i - 1
+  move = input.strip.to_i - 1
    
 end
 
