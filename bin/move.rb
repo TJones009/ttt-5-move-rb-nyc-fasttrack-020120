@@ -6,7 +6,7 @@ require_relative '../lib/move.rb'
 
 board = Array.new(9," ")
 puts "Welcome to Tic Tac Toe!"
-
+display_board(board)
 puts "Please enter 1-9:"
 user_input=gets.strip
 input_to_index(input)
